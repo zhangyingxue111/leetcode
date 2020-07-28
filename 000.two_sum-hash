@@ -14,7 +14,7 @@ public:
 		vector<int> out;
         /* 首先所有的数据哈希映射表 */
 		for (int i = 0; i < nums.size(); i++) {
-			myhash[nums[i]] = i;
+			myhash[nums[i]] = i;        //键值为nums的值，变量值为nums下标
 		}
 
 		for (int i = 0; i < nums.size(); i++) {
